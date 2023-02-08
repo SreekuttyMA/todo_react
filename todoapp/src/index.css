@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(128, 126, 167);
+}
+.todo-container{
+    
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  border : solid 5px rgb(107, 105, 105);
+
+}
+h1{
+  color: aliceblue;
+}
+.todo-search input{
+  width: 250px;
+  background-color:rgb(128, 126, 167);
+  
+}
+::placeholder{
+  color: white;
+  font-size: medium;
+}
+.input-section{
+  background-color:rgb(128, 126, 167);
+  padding: 20px;
+}
+.input-section input{
+ 
+  background-color:rgb(128, 126, 167);
+}
+ul{
+  background-color: rgb(128, 126, 167);
+  padding: 10px;
+  text-align: left;
+}
+ul li{
+  list-style: none;
+  display: flex;
+}
+
+ul li i{
+  text-align: right;
+  flex: 1;
+  cursor: pointer;
+}
+button{
+  background-color: rgb(128, 126, 167);
+  border-radius: 5px;
+  border: solid rgb(128, 126, 167);
+  color: white;
+}
